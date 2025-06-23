@@ -1,0 +1,24 @@
+/* src/popcal.css */
+.popcal-calendar {
+  font-family: sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1em;
+  background: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.popcal-event {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-left: 4px solid #0078d7;
+  background: #f8fafd;
+}
+.popcal-title {
+  font-weight: bold;
+  color: #222;
+}
+.popcal-date {
+  color: #555;
+  font-size: 0.95em;
+}

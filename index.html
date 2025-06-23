@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PopCal.js Demo</title>
+  <link rel="stylesheet" href="dist/popcal.min.css">
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    #calendar { margin-top: 2em; }
+  </style>
+</head>
+<body>
+  <h1>PopCal.js Demo</h1>
+  <div id="calendar"></div>
+
+  <script type="module">
+    import PopCal from './dist/popcal.min.js';
+
+    // Example usage
+    PopCal.render({
+      target: '#calendar',
+      view: 'monthly',
+      dataUrl: 'events.sample.json' // or your JSCalendar data endpoint
+    });
+  </script>
+</body>
+</html>

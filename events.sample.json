@@ -1,0 +1,29 @@
+{
+  "@type": "Calendar",
+  "events": {
+    "1": {
+      "@type": "CalendarEvent",
+      "uid": "1",
+      "title": "Team Meeting",
+      "start": "2025-07-01T09:00:00Z",
+      "duration": "PT1H",
+      "location": { "name": "Conference Room A" }
+    },
+    "2": {
+      "@type": "CalendarEvent",
+      "uid": "2",
+      "title": "Project Kickoff",
+      "start": "2025-07-03T14:00:00Z",
+      "duration": "PT2H",
+      "location": { "name": "Online" }
+    },
+    "3": {
+      "@type": "CalendarEvent",
+      "uid": "3",
+      "title": "Company Picnic",
+      "start": "2025-07-10T12:00:00Z",
+      "duration": "PT4H",
+      "location": { "name": "Central Park" }
+    }
+  }
+}
