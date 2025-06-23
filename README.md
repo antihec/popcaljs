@@ -102,7 +102,3 @@ Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ---
 
 **PopCal.js** is under active development. Issues and feature requests are encouraged via GitHub.
-
----
-
-Let me know if you want a more detailed API section, contribution guidelines, or sample build instructions!
