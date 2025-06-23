@@ -1,0 +1,20 @@
+{
+  "name": "popcaljs",
+  "version": "0.1.0",
+  "description": "**PopCal.js** is a framework-agnostic JavaScript library for rendering [JSCalendar (RFC 8984)](https://datatracker.ietf.org/doc/html/rfc8984) event data in accessible, themable calendar views.   It is designed for easy integration into any web project and supports multiple calendar display modes out of the box.",
+  "main": "dist/popcal.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antihec/popcaljs.git"
+  },
+  "keywords": [],
+  "author": "antihec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antihec/popcaljs/issues"
+  },
+  "homepage": "https://github.com/antihec/popcaljs#readme"
+}
