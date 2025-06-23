@@ -11,17 +11,31 @@
 </head>
 <body>
   <h1>PopCal.js Demo</h1>
+  <label for="view-select">View:</label>
+    <select id="view-select">
+    <option value="upcoming">Upcoming Events</option>
+    <option value="monthly">Monthly</option>
+    <option value="weekly">Weekly</option>
+    <option value="yearly">Yearly</option>
+    </select>
   <div id="calendar"></div>
 
   <script type="module">
     import PopCal from './dist/popcal.min.js';
 
-    // Example usage
+  const renderCalendar = (view) => {
     PopCal.render({
       target: '#calendar',
-      view: 'monthly',
-      dataUrl: 'events.sample.json' // or your JSCalendar data endpoint
+      view: view,
+      dataUrl: 'events.sample.json'
     });
+  };
+  // Initial render
+  renderCalendar('upcoming');
+  // Listen for view changes
+  document.getElementById('view-select').addEventListener('change', (e) => {
+    renderCalendar(e.target.value);
+  });
   </script>
 </body>
 </html>

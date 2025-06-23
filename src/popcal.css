@@ -22,3 +22,7 @@
   color: #555;
   font-size: 0.95em;
 }
+#view-select {
+  margin-left: 0.5em;
+  padding: 0.3em;
+}
